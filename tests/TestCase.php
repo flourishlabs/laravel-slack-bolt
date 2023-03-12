@@ -2,9 +2,9 @@
 
 namespace FlourishLabs\LaravelSlackBolt\Tests;
 
+use FlourishLabs\LaravelSlackBolt\LaravelSlackBoltServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use FlourishLabs\LaravelSlackBolt\LaravelSlackBoltServiceProvider;
 
 class TestCase extends Orchestra
 {

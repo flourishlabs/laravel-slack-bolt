@@ -2,9 +2,9 @@
 
 namespace FlourishLabs\LaravelSlackBolt;
 
+use FlourishLabs\LaravelSlackBolt\Commands\LaravelSlackBoltCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use FlourishLabs\LaravelSlackBolt\Commands\LaravelSlackBoltCommand;
 
 class LaravelSlackBoltServiceProvider extends PackageServiceProvider
 {
