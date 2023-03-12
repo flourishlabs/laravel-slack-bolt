@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace FlourishLabs\LaravelSlackBolt\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSlackBoltCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-slack-bolt';
 
     public $description = 'My command';
 

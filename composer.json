@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "flourishlabs/laravel-slack-bolt",
+    "description": "Slack Bolt for Laravel",
     "keywords": [
-        ":vendor_name",
+        "flourishlabs",
         "laravel",
-        ":package_slug"
+        "laravel-slack-bolt"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/flourishlabs/laravel-slack-bolt",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ashley Hindle",
+            "email": "hello@flourishlabs.io",
             "role": "Developer"
         }
     ],
@@ -30,18 +30,17 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpstan/phpstan-phpunit": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "FlourishLabs\\LaravelSlackBolt\\": "src",
+            "FlourishLabs\\LaravelSlackBolt\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "FlourishLabs\\LaravelSlackBolt\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "FlourishLabs\\LaravelSlackBolt\\LaravelSlackBoltServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSlackBolt": "FlourishLabs\\LaravelSlackBolt\\Facades\\LaravelSlackBolt"
             }
         }
     },
